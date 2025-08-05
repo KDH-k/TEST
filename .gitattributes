@@ -1,0 +1,26 @@
+# 모든 텍스트 파일은 LF(Line Feed)로 처리
+* text=auto eol=lf
+
+# 특정 파일 확장자에 대해 명시적으로 LF 지정
+*.js     text eol=lf
+*.json   text eol=lf
+*.ts     text eol=lf
+*.jsx    text eol=lf
+*.tsx    text eol=lf
+*.html   text eol=lf
+*.css    text eol=lf
+*.md     text eol=lf
+*.yml    text eol=lf
+*.yaml   text eol=lf
+
+# 바이너리 파일은 Git이 줄바꿈을 변경하지 않도록 설정
+*.png    binary
+*.jpg    binary
+*.jpeg   binary
+*.gif    binary
+*.ico    binary
+*.pdf    binary
+*.woff   binary
+*.woff2  binary
+*.ttf    binary
+*.eot    binary
